@@ -8,6 +8,11 @@ html {
     box-sizing: inherit;
 }
 
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 /* === ELEMENTS === */
 
 /* --- Texte --- */
