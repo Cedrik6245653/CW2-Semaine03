@@ -17,26 +17,132 @@ html {
 
 /* --- Texte --- */
 
+h1, h2, li, h4, article h3 {
+    font-family: 'Dosis', sans-serif;
+}
 
+.boiteHero h3, p {
+    font-family: 'Roboto', sans-serif;
+}
 
-/* --- Article --- */
-
-
-
+li, h4  {
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
 /* === SECTIONS === */
 
 /* --- Header --- */
 
+header {
+    background-color: white;
+}
 
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    gap: 20px;
+}
+
+li {
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+}
+
+li:hover {
+    color: white;
+    background-color: #0e5ea1;
+}
 
 /* --- Hero --- */
 
+.hero {
+    background-image: url("../images/montagnes_hero.jpg");
+    padding: 180px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.boiteHero {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1px 20px;
+    border-radius: 10px;
+}
+
+.boiteHero h1 {
+    color: white;
+}
+
+.boiteHero h3 {
+    color: #2FCB48;
+    font-weight: 300;
+}
+
+/* --- Section Principale --- */
+
+.sectionPrincipal {
+    background-color: #e3e4e4;
+    padding: 40px 0;
+}
+
+.flexBox {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 40px;
+}
 
 /* --- Article --- */
 
+article {
+    padding: 10px;
+    background-color: white;
+}
 
+article p {
+    line-height: 27px;
+}
+
+article h2 {
+    margin-bottom: -6px;
+    margin-top: 30px;
+}
+
+article h4 {
+    text-align: center;
+    background-color: #B7B7B7;
+    border-radius: 5px;
+    padding: 14px;
+    margin: 0 48px;
+}
+
+article h4:hover {
+    background-color: #0e5ea1;
+    color: white;
+}
 
 /* --- Footer --- */
 
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 13px;
+}
