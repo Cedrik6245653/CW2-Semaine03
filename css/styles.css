@@ -38,11 +38,25 @@ header {
     background-color: white;
 }
 
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    padding: 20px;
+}
+
+.logo h1 {
+    padding-left: 30px;
+}
+
 nav {
     display: flex;
     align-items: center;
     gap: 30px;
-    padding: 20px 0;
+    
 }
 
 ul {
