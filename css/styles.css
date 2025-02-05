@@ -1,0 +1,37 @@
+/* === BASE === */
+
+html {
+    box-sizing: border-box;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+/* === ELEMENTS === */
+
+/* --- Texte --- */
+
+
+
+/* --- Article --- */
+
+
+
+
+/* === SECTIONS === */
+
+/* --- Header --- */
+
+
+
+/* --- Hero --- */
+
+
+
+/* --- Article --- */
+
+
+
+/* --- Footer --- */
+
